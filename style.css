@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500&family=Inter:wght@300;400;500;900&family=Montserrat&family=Poppins&family=Roboto&family=Ruda&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Ruda', sans-serif;
+}
+body{
+    background-color: black;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+nav>div{
+    color: white;
+    margin-inline: 20px;
+}
+.nav2>a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 20px;
+}
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    box-sizing: border-box;
+    padding-top: 13px;
+}
+.second{
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.bg-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://s3-alpha-sig.figma.com/img/791f/9ca1/801cf713555ea70ba295e8de05e15650?Expires=1701648000&Signature=SlCjDwSAVm0wY-dD5PUyPIG8ojd2FkmzSzLCaJk~1LaBqvU4dYCND~UsOwmH-zAZOxMy1yUV80TqnUk-gdY5DnW-swxwpK-Dp208Fhn5ThPCgAdeSF3YqBEago6HyS9fLNJJ6tHJyw~8H-KFFGRk1DE2KqHIi3QcpJTo3BHZ1CCGOTHhS8MYGa5Dav28cR-GFYGKSqcTElc9Xk1fRs~KBgaba96BzqoYIaWTweAXAZIqJdFfSifA7GNlqEcmyp9cmLXnk-cphdIro6XWmw~UGudNqCut5zoHVm6dMKt~he1nqAgF2GJb~YsAuuK7YOltPX47HrzsdXqoRlxfRo~Wsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    width: 100%;
+    height: 650px;
+}
+.bg-img>div>h1{
+    font-family: 'Ruda';
+    white-space: pre;
+    color: white;
+    width: 200px;
+    font-size: 80px;
+}
+.bg-img>div{
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+.bod{
+    background-color: #F24C4C;
+    width: 460px;
+    height: 8px;
+}
+.sec-3{
+    color: white;
+    line-height: 30px;
+    width: 400px;
+    font-size: large;
+}
+.third-sec{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.third-sec>h1{
+    text-align: center;
+    width: 300px;
+    border-bottom: 6px solid #F24C4C;
+    color: white;
+    font-size: 50px;
+}
+.third-sec>div{
+    margin-top: 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.third-sec>div>p{
+    color: white;
+    line-height: 30px;
+    width: 400px;
+    font-size: large;
+    margin-inline: 150px;
+    border-top: 3px solid #F24C4C;
+}
+.third-sec>div>img{
+    margin-inline: 150px;
+    width: 400px;
+}
+.edit>p{
+    margin-top: 40px;
+    color: white;
+    line-height: 25px;
+    width: 70%;
+}
+.edit>div{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 450px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card1>div>img{
+    height: 150px;
+    margin-top: 5px;
+}
+.card1>div>h5{
+    color: #F2C94C;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    font-family: Ruda;
+    padding-inline: 10px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px; /* 0% */
+}
+.card1>div>p{
+    color: #FFF;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-inline: 10px;
+    font-family: Ruda;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+ 
+}
+.edit2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.edit2>img{
+    margin-top: 40px;
+    width: 75%;
+    height: 600px;
+}
+.dot{
+    width: 15px;
+    margin-inline: 5px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.edit3>div{
+    display: flex;
+}
+.dot2{
+    margin-inline: 3px;
+    background-color: grey;
+}
+
+.sec-4{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec-4>h1{
+    text-align: center;
+    width: 300px;
+    border-bottom: 6px solid #F24C4C;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.box1{
+    display: flex;
+}
+.sec-4>div{
+    width: 75%;
+    height: 600px;
+}
+.gal1>img{
+    height: 600px;
+    width: 550px;
+}
+.gal2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.gal2>img{
+    margin-bottom: 5px;
+}
+.gal3>img{
+    width: 300px;
+    height: 295px;
+}
+.sec-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-5>div{
+    margin-inline: 30px;
+}
+.sep{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+    width: 300px;
+    border-bottom: 6px solid #F24C4C;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.sec-5>div>p{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 550px;
+    font-family: Ruda;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 160% */
+    letter-spacing: 2.25px;
+}
+.sec-5>div>p>img{
+    padding-inline: 15px;
+
+}
+.cal{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.cal>p{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 220px;
+    font-family: Ruda;
+    font-size: 25px;
+    font-style: normal;
+    padding-top: 40px;
+    font-weight: 400;
+    line-height: 40px; /* 160% */
+    letter-spacing: 2.25px;
+}
+footer{
+    width: 90%;
+    margin:auto;
+}
+footer>div{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loc{
+    color: white;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: Ruda;
+    font-size: 25px;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.mail>*{
+    margin-inline: 20px;
+}
+
